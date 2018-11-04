@@ -1,0 +1,20 @@
+{
+  "model": {
+    "neg_num": 4,
+    "gamma": 10,
+    "model_folder": "./export/model/dssm/"
+  },
+  "train": {
+    "file_path": "./data/toy/train.csv",
+    "batch_size": 10,
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "decay_steps": 1000,
+    "decay_rate": 0.9
+  },
+  "data": {
+    "query_len": 10,
+    "doc_len": 40,
+    "padding": 0
+  }
+}
